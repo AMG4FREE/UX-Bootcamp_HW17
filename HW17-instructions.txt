@@ -1,0 +1,339 @@
+Background
+
+This week’s homework will be the starting place for the rest of the coding section’s homework (weeks 18–21), so do your best! Success during this assignment will set you up to create a beautiful design as you continue to iterate on your portfolio site.
+An online portfolio is essential to transitioning to a new career in design. Your online portfolio communicates who you are, your design process, and your work! A portfolio is also a place to practice iterating and applying your growing UX, UI, and front-end web design skills.
+Optional portfolio strategy: Use a content management system (CMS) platform.
+During these weeks, you also have the option to start creating your portfolio using a content management system or website service. Some recommended CMS portfolio platforms follow:
+
+Wordpress.com: https://wordpress.com/
+UXfol.io: https://uxfol.io/
+Webflow: https://webflow.com/ 
+Cargo Collective: https://cargo.site/
+Semplice WordPress: https://www.semplice.com/
+
+Note: Using an optional portfolio strategy does not exempt you from the coding skills homework assignments.
+
+Scenario: 
+
+Last week, you started creating your UX design portfolio’s homepage during class with your skills assessment and About Me wireframe.
+This week, you will build out this wireframe which will become your UX/UI portfolio website over the next eight weeks.
+The purpose of the site is to showcase the case studies and skills you compiled during Unit 16. Get excited! This is the final step of the UX/UI Boot Camp that ends in a new career for you.
+
+User Story
+
+As a UX Designer, you will design and code a one-page webpage for hiring managers to review your work and learn more about you.
+
+Objectives
+
+Plan an HTML/CSS layout using Redlining from Figma or XD
+Export your web page design assets from Figma or XD
+Create and clone a Github Repository 
+Code the HTML structure and CSS styling for your header, content and footer
+Upload webpage to GitHub pages and share hosted URL 
+
+Instructions
+
+Each of the steps below will guide you through designing and coding the start of your About Me wireframe, with suggestions on how you should build and style the structure. (Note that the time estimate for completing each step.) There will also be documentation explaining the different HTML elements and CSS properties in use should you need help.
+
+-----------------------------------------------------------------------------
+
+Step 1: Redline the portfolio wireframe you created in Week 16 using Figma or Adobe XD (1-2 hours)
+Wireframe sample: 
+
+Before you begin coding, you should mentally map out what HTML tags you need to use. Open Figma or Adobe XD and open your About Me wireframe page.
+
+Create three new artboards and redline the following sections.
+Your header section
+Your hero image section
+Your footer section
+
+Redline your header section. Your header should contain the following tags:
+
+A <header> tag
+An <img> tag
+A <p> tag
+A <ul> tag
+Four <li> tags containing the text:
+About
+Skills
+Work
+Contact
+Header sample: 
+
+Redline your hero image section. Your hero image should contain the following tags:
+
+A <section> tag
+A <div> tag that is wrapped by the section tag
+An <img> tag wrapped inside the div
+An <h1> tag wrapped inside the div
+A <p> tag wrapped inside the div
+A <button> tag wrapped inside the div
+Hero image section sample:
+Redline your footer section. Your footer section should contain the following tags:
+A <footer> tag
+A <ul> tag wrapped inside the footer
+Four <li> tags wrapped inside the ul containing the following text:
+About
+Skills
+Work
+Contact
+
+Export your artboards as jpeg or png files using the Figma/XD export tool.
+
+Drop these images in a Google Drive folder on Bootcamp Spot.
+
+--------------------------------------------------------------------------------
+
+Step 2: Export assets from your Figma or XD portfolio wireframe (1 hour)
+
+Open the design file you created for Unit 16 (wireframe of an About Me page using Figma/XD).
+
+Export the following assets using Figma/XD into your images folder. 
+If you need a refresher on how to export images in Adobe XD, please view the following tutorial from Adobe XD documenting the process.
+
+An image of yourself
+
+Your logo
+
+Make sure you save the images in the images folder you created in the previous step.
+
+-----------------------------------------------------------------------
+
+Step 3: Create and clone a GitHub repository to your desktop (1 hour)
+
+As a front-end developer, we start creating a workspace for coding by creating a repository.
+
+Create a GitHub project repo by completing the following:
+
+Navigate and login to www.GitHub.com and click new in the top left of github.com.
+
+Create a new GitHub repo in GitHub named UX_UI_HW_17.
+
+Open GitHub Desktop.
+
+Clone the empty repo to the code folder in your local computer you created last week in 16.3 (myCode) by clicking file -> clone. 
+
+Select the repository named UX_UI_HW_17
+
+Make sure you choose the code folder in the local path to keep track of your work.
+
+Create the proper folder structure inside UX_UI_HW_17 to hold your website assets.
+
+Review the folder structure in the following screenshot for a good example.
+
+Create two folders inside our UX_UI_HW_17 folder that you just cloned to the code folder on your desktop.
+
+Name the first folder "CSS".
+
+Name the second folder "images".
+
+Open Visual Studio Code.
+
+Add your code folder to a visual studio workspace. Click file -> add folder to workspace.
+
+Create an index.html file in your root folder and an index.css file located in your CSS folder (illustrated below) using VSCode. 
+
+Right-click on your UX_UI_HW_17 and click new file. Name it index.html.
+
+Right-click on your CSS folder and right-click -> select new file. Name in style.css.
+
+If you are a beginner at using a text editor, please review these intro videos about Visual Studio Code.
+
+Open GitHub Desktop. If you need a refresher on how to use GitHub Desktop, view the following documentation.
+
+GitHub Desktop can see that you have added files and is tracking your repo. Make sure you write a summary message and click commit to master.
+
+Push these pages up to your UX_UI_HW_17 GitHub repo to sync your local repo with your cloud repo.
+
+------------------------------------------------------------------------------
+
+Step 4: Create a basic HTML structure for a navbar, hero image, and footer (1-2 hours)
+
+To practice being a front-end developer, let’s start coding in our GitHub repository using Visual Studio Code.
+
+Open the index.html file you created in Visual Studio Code.
+
+Create the basic HTML structure for our HTML document.
+
+------------------------------------
+
+Code the navbar HTML:
+
+Inside the body tag, create the following div tags to hold our content.
+
+A <header class="navigation"> tag
+
+Create the following HTML structure inside of it:
+
+-A <div class="inline-block and logo"> tag
+
+Wrapped inside this div tag, create an:
+
+Img tag with a logo. Use the image of your logo you exported during the second step of this homework.
+
+A nav tag with the class of inline-block. Wrapped inside of the nav tag create:
+
+An <ul> tag that wraps four <li> tags.
+
+Give the <li> tags the class of inline-block. 
+
+Inside your first li tag, add the text “about.”
+
+Inside your second li tag, add the text “skills.”
+
+Inside your third li tag, add the text “work.”
+
+Inside your fourth li tag, add the text “contact.”
+
+--------------------------------------------
+
+Code the hero image HTML:
+
+Under your header, create a section tag with the class of “heroImg.”
+
+Wrapped inside the hero image section, create:
+
+A div with the class of "content".
+
+Inside this div, create the following HTML structure:
+
+An <img> tag with a picture of yourself that you exported in the second step of this homework.
+
+A <h1> tag with your name.
+A <p> tag that contains a paragraph about yourself!
+
+A <button> tag with the words “Download Resume.”
+
+----------------------------------------
+
+Code the footer HTML:
+
+Under your section with the class of “heroImg,” create a <footer> tag.
+
+Wrapped inside the footer section create:
+
+An <ul> tag that wraps four <li> tags.
+
+Give the li tags the class of inline-block. 
+
+Inside your first li tag, add the text “about.”
+
+Inside your second li tag, add the text “skills.”
+
+Inside your third li tag, add the text “work.”
+
+Inside your fourth li tag, add the text “contact.”
+
+---------------------------------------------------
+
+Step 5: Attach a stylesheet and style the HTML of your navbar, hero image, and footer sections (2-3 hours)
+
+In Visual Studio Code, open your style.css file located in your CSS folder.
+
+Create a <link> tag to connect your HTML file to your CSS file.
+
+----------------------------------------------
+
+Code navbar CSS:
+
+First, we need all the elements to line up next to each other to build out our navbar. In our style.css file, create a selector that targets our elements with the class of inline-block.
+------------------------------
+Give this selector the CSS property of display: inline-block; This will cause our navbar to line up next to each other.
+
+Give this selector the property of vertical-align: top; to ensure all elements align next to one another.
+-------------------------------------------
+Next, we need our divs to fill the width of our container.
+
+Create a CSS selector that targets our div with the class of logo.
+
+Set this element’s width to 23%.
+
+Give this element a padding of 1%.
+------------------------------------------
+Create a CSS selector that targets our HTML element nav.
+If you don’t remember how to target base HTML elements, read this documentation: https://www.w3schools.com/cssref/css_selectors.asp
+
+Set this element’s width to 73%.
+
+Give this element a padding of 1%.
+-------------------------------------
+Let’s align our unordered list in its container to the right.
+
+Target the base HTML ul element we created earlier.
+
+Give it a width of 50%.
+
+Center it using margin-left: auto;.
+
+Let’s center our images inside their containers also. In our CSS selector that targets the class of logo:
+
+Give this element the CSS property text-align: center;
+-----------------------------
+Code hero image CSS:
+
+To begin, give our section with the class of heroImg a height.
+
+Give this element the CSS property of height: 600px;
+
+Give this element padding: 25px;
+-------------------------------------------
+Create a CSS selector that targets the class of content.
+Give this element width: 500px;
+Center this element using margin: 0 auto;
+
+Code footer CSS:
+To build out your footer, write a CSS selector that targets the base HTML footer element.
+Give this selector a background color: #373738
+------------------------------------
+Use padding to center your <ul> and <li> elements.
+
+Write a CSS selector that targets your <ul> nested inside of our footer element. (.footer ul)
+
+Set this element to display: inline-block
+
+Give this selector the property of vertical-align: top (to ensure all elements align next to one another.)
+
+Use padding to center the text inside of our <li> elements.
+
+That’s it! We now have a basic wireframe of our portfolio site for you to practice your CSS skills on.
+
+Code bonus:
+Now it’s up to you to create and practice styling this page. Do your best to make this template look like the design you created during Week 16. 
+
+When you are finished styling, make sure you reupload your modified CSS files to GitHub so the world can see your work!
+
+Here are a couple of links to some CSS properties that you should experiment with:
+https://www.w3schools.com/cssref/pr_background-image.asp
+https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+https://www.w3schools.com/cssref/pr_font_font-family.asp
+https://www.w3schools.com/html/html_colors.asp
+Strategies for applying visual design to your portfolio:
+Apply background-colors to your navbar and the associated unordered lists and list items contained inside.
+Add a background image to your hero image. Make sure to use background-size: cover and background-repeat: no-repeat to make your background span your page’s full width.
+Apply a drop shadow to the div contained inside your hero image.
+Add a font-family to the text elements in your li and p tags.
+Step 6: Upload your coded website’s index.html, style.css, and images folder to GitHub and publish via GitHub Pages (2 hours)
+As a front-end developer, getting practice publishing your work and hosting it online will not only help you submit your assignment but also get you into the habit of getting feedback and practicing GitHub Desktop.
+Upload your finished webpage to GitHub using GitHub Desktop.
+Publish your site on GitHub Pages (if you haven’t already). 
+Make sure you copy the URL. You will need it to submit your homework via Bootcamp Spot.
+Tips
+The following are general developer workflow tips to help speed up your development process when building a webpage:
+Start by coding the skeleton of the wireframe first. Use outline: 1px solid red; to see what you're doing on your page with your CSS. Remember to use the web inspector to preview changes to your CSS.
+Style your content inside your wireframe.
+Google a lot! There are many nuances to front-end development, and you will undoubtedly encounter problems when practicing coding. Using Google to search for answers is a normal part of all web developers’ workflow.
+Create an account at https://stackoverflow.com/. Stack Overflow is a community forum for developers. It is a great resource to help answer all of your developer questions.
+
+Required Deliverables
+Google doc with the following sections:
+
+A link to your Redlined Figma or Adobe XD webpage.
+A link GitHub repository
+A link to your Github pages website URL.
+
+Submission
+
+Use Google Drive (G-drive) and GitHub to turn in your homework assignment (make sure to double-check that your sharing permissions are set to “Anyone with the link can view”).
+
+Submit the following links to https://www.bootcampspot.com:
+A link to your Google Doc with required deliverable links
