@@ -82,7 +82,7 @@ Export your artboards as jpeg or png files using the Figma/XD export tool.
 
 Drop these images in a Google Drive folder on Bootcamp Spot.
 
---------------------------------------------------------------------------------
+-----------------------------------------------------------------------
 
 Step 2: Export assets from your Figma or XD portfolio wireframe (1 hour)
 

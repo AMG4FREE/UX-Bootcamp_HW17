@@ -1,4 +1,21 @@
-inline-block {
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+  }
+  :target:before {
+    content: "";
+    display: block;
+    height: 75px;
+    margin: -75px 0 0;
+  }
+  body {
+    background-color: #130717;
+    font-family: "Prompt", sans-serif;
+    color: #40d3e6;
+    margin: 0;
+  }
+
+.inline-block {
     border: 5px solid red;
     display: inline-block;
     vertical-align: top;
@@ -6,7 +23,7 @@ inline-block {
 
 .logo {
     border: 5px solid red;
-    width: 23%;
+    width: 23% auto;
     padding: 1%;
     text-align: center;
 }
@@ -18,6 +35,7 @@ nav {
 }
 
 ul {
+
     border: 5px solid red;
     width: 50%;
     margin-left: auto;
@@ -51,3 +69,500 @@ li {
     text-align: center;
     padding: 25px;
 }
+
+
+/* Basic structure & Typography */
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Space Mono", monospace;
+    color: #40d3e6;
+    margin: 0;
+  }
+  h1 {
+    font-size: 64pt;
+    line-height: 50pt;
+  }
+  h2 {
+    font-size: 60pt;
+    line-height: 50pt;
+  }
+  h3 {
+    font-size: 38pt;
+    line-height: 30pt;
+  }
+  h4 {
+    font-size: 20pt;
+  }
+  h5 {
+    font-size: 16pt;
+    line-height: 1.1em;
+    color: #cf4447 !important;
+  }
+  p {
+    font-weight: lighter;
+  }
+  section {
+    margin-top: 50px;
+  }
+  footer {
+    position: relative;
+    bottom: 0px;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #7b518c;
+  }
+  .small {
+    font-size: 8pt;
+  }
+  .aboutBlurb b,
+  h4 {
+    color: #cf4447;
+  }
+  #about .container,
+  .newPage{
+    margin-top: 75px !important;
+  }
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .content {
+    width: 80%;
+    margin: 30px auto;
+  }
+  .left {
+    text-align: left;
+    padding: 10px;
+  }
+  .right {
+    text-align: right;
+    padding: 10px;
+  }
+  #ux .container,
+  #contact .container {
+    border-right: 10px solid #40d3e6;
+    border-radius: 5px;
+    -webkit-box-shadow: inset -5px 0px 0px 0px #428a99;
+    box-shadow: inset -5px 0px 0px 0px #428a99;
+  }
+  #illus .container {
+    border-left: 10px solid #40d3e6;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 5px 0px 0px 0px #428a99;
+    box-shadow: inset 5px 0px 0px 0px #428a99;
+  }
+  .newPage .container {
+    border-bottom: 10px solid #40d3e6;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px -5px 0px 0px #428a99;
+    box-shadow: inset 0px -5px 0px 0px #428a99;
+  }
+  form {
+    margin: 0 auto;
+    padding: 15px;
+    width: 50%;
+    padding-bottom: 8vh;
+  }
+  input,
+  textarea {
+    font-family: "Prompt", sans-serif;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #130717;
+    font-size: 12pt;
+  }
+  input:focus,
+  textarea:focus {
+    -webkit-box-shadow: 0px 0px 5px 3px #40d3e6;
+    box-shadow: 0px 0px 5px 3px #40d3e6;
+    outline: none;
+  }
+  input[type="text"] {
+    background-color: #428a99;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  input[type="submit"] {
+    float: right;
+    color: #40d3e6;
+    background-color: #7b518c;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  textarea {
+    background-color: #428a99;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    resize: none;
+  }
+  /* Make labels invisible, but legible to screen-readers */
+  label {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+  }
+  ::placeholder {
+    color: #130717;
+    opacity: 0.6;
+  }
+  .form {
+    margin: 25px auto;
+    width: 60%;
+    margin-bottom: 0;
+  }
+  
+  /* Links & Buttons */
+  button {
+    color: #40d3e6;
+    background-color: #7b518c;
+    border-radius: 5px;
+    border: none;
+    outline: 0px solid #7b518c;
+    height: 50px;
+    padding: 10px 15px;
+    font-family: "Prompt", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.75s ease-in-out;
+  }
+  button:hover,
+  input[type="submit"]:hover {
+    background-color: #4b2c58;
+    outline: 5px solid #40d3e6;
+    transition-duration: 0.35s;
+  }
+  button:active,
+  input[type="submit"]:active {
+    position: relative;
+    top: 1px;
+  }
+  a {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  a:hover {
+    text-decoration: underline;
+    text-decoration-color: #cf4447;
+    text-decoration-thickness: 2px;
+  }
+  a:active {
+    background-color: #40d3e6;
+    color: #7b518c;
+    text-decoration-color: #7b518c;
+  }
+  
+  /* Desktop Menu */
+  .navigation {
+    background-color: #7b518c;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 55px;
+    overflow: hidden;
+  }
+  .mobile {
+    display: none;
+  
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    margin-top: 12px;
+    gap: 5%;
+    max-width: 75%;
+  }
+  .navigation a {
+    color: #40d3e6;
+    font-size: 16pt;
+    font-family: "Space Mono", monospace;
+    text-decoration: none;
+  }
+  .navigation a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .menuContainer {
+    display: none;
+  }
+  
+  /* Sections */
+  .study,
+  .illus,
+  .about {
+    display: flex;
+    gap: 15px;
+    padding: 0 5px;
+    margin-top: 0;
+    margin-bottom: 35px;
+  }
+  .thumbnail {
+    min-width: 33%;
+    min-height: 300px;
+    flex-grow: 1;
+  }
+  .blurb {
+    flex-grow: 0;
+  }
+  #contact {
+    margin-bottom: 75px;
+  }
+  .aboutBlurb {
+    align-self: end;
+    margin-bottom: 5px;
+  }
+  
+  /* Images */
+  .heroImg {
+    background-image: url(../img/me.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 50%;
+    min-height: 55vh;
+  }
+  .zine {
+    background-image: url(../img/zine_th.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+  .night {
+    background-image: url(../img/nightcrawler_th.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .sonikitty {
+    background-image: url(../img/sonikitty_th.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .bulgar {
+    background-image: url(../img/bulgar_th.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .placeholder {
+    background-image: url(../img/placeholder.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* XL Screen */
+  
+  @media only screen and (min-width: 1440px) {
+    .heroImg {
+      background-position: center;
+      background-size: contain;
+    }
+    .container {
+      max-width: 60%;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Tablet */
+  
+  @media only screen and (max-width: 810px) {
+    .menuContainer {
+      display: none;
+    }
+    #ux h2,
+    #illus h2,
+    #contact h2 {
+      font-size: 50pt;
+      line-height: 46pt;
+    }
+    #ux h3 {
+      font-size: 30pt;
+      line-height: 26pt;
+    }
+    ul {
+      max-width: 100%;
+      gap: 3%;
+      position: absolute;
+      left: -3%;
+    }
+    li {
+      min-width: fit-content;
+    }
+    .thumbnail {
+      min-width: 50%;
+    }
+  }
+  
+  /* Mobile */
+  
+  @media only screen and (max-width: 600px) {
+    /* Mobile Typography */
+    p {
+      font-size: 10pt;
+    }
+    #ux h2,
+    #illus h2,
+    #contact h2 {
+      font-size: 32pt;
+      line-height: 20pt;
+    }
+    #ux h3 {
+      font-size: 24pt;
+      line-height: 16pt;
+    }
+    /* Structure */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    ul {
+      position: relative;
+      width: 90%;
+      top: 100px;
+      flex-direction: column;
+      text-align: right;
+      left: unset;
+      row-gap: 15px;
+      margin: auto;
+      padding: 0px;
+    }
+    .menu h2 {
+      position: relative;
+      text-align: left;
+      padding-left: 15px;
+    }
+    section #about {
+        margin-top: 60px !important;
+    }
+    .study, .illus, .about {
+      flex-direction: column;
+    }
+    .thumbnail {
+      min-width: 100%;
+      min-height: 300px;
+    }
+    .night, .bulgar {
+      order: -1;
+    }
+    .heroImg {
+      background-image: url(../img/me_mobile.png);
+      min-height: 33vh;
+      background-position: center;
+      background-size: cover;
+      order: -1;
+      border-radius: 50%;
+    }
+    .blurb, .content, .form, form {
+      width: 90%;
+    }
+    .aboutBlurb {
+      position: relative;
+      top: -58px;
+      text-shadow: 5px 5px 5px rgba(19, 7, 23, 1);
+    }
+    /* a {
+      padding: 15px;
+    } */
+    /* Mobile Menu */
+  
+    /* .mobile  */
+    .navigation {
+      display: unset;
+      height: 55px;
+      background-color: #7b518c;
+      z-index: 255;
+    }
+    .toggle {
+      color: #40D3E6;
+    }
+    .menuContainer {
+      display: unset;
+      position: fixed;
+      top: 55px;
+      width: 100%;
+    }
+    .down {
+      height: calc(100vh - 55px);
+      -webkit-backdrop-filter: blur(3px) brightness(70%);
+      backdrop-filter: blur(3px) brightness(70%);
+    }
+    .menu {
+      display: none;
+      margin: 0 auto;
+      max-width: 600px;
+      color: #40D3E6;
+      background-color: #7B518C;
+      border-radius: 0px 0px 5px 5px;
+      padding: 10px 5px 0px;
+      height: 90%;
+  }
+  .menuBottom {
+      background-image: url(../img/menu_nubbin.png);
+      margin: 0 auto;
+      width: 250px;
+      height: 73px;
+      background-size: 25%;
+      background-repeat: no-repeat;
+      background-position: top;
+  }
+  ul {
+      display: unset;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: right;
+      font-family: 'Space Mono';
+  }
+  .menu li {
+      font-size: 24pt;
+      line-height: 40pt;
+      padding: 0px 10px;
+      margin-bottom: 35px;
+  }
+  .chevron {
+      position: relative;
+      width: 30px;
+      height: 35px;
+      z-index: 255;
+      top: -1.5vh;
+      left: 50%;
+      transform: translate(-50%);
+      font-size: 26pt;
+      line-height: 0pt;
+      cursor: pointer;
+    }
+    .chevron a{
+      font-size: 26pt;
+      line-height: 0pt;
+    }
+    .chevron a:hover{
+      background-color: unset;
+    }
+    .menu a {
+      color: #40d3e6;
+      font-size: 26pt;
+      line-height: 40pt;
+      font-family: "Space Mono", monospace;
+      text-decoration: none;
+    }
+    .menu a:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+    }
+  }
+   */
