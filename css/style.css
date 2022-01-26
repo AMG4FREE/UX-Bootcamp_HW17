@@ -1,44 +1,53 @@
 .inline-block {
+    border-color: solid red;
     display: inline-block;
     vertical-align: top;
 }
 
 .logo {
+    border-color: solid red;
     width: 23%;
     padding: 1%;
     text-align: center;
 }
 
 .nav {
+    border-color: solid red;
     width: 73%;
     padding: 1%;
 }
 
 .ul {
+    border-color: solid red;
     width: 50%;
     margin-left: auto;
 }
 
 .heroImg {
+    border-color: solid red;
     height: 600px;
     padding: 25px;
 }
 
 .content {
+    border-color: solid red;
     width: 500px;
     margin: 0 auto;
 }
 
 .footer {
+    border-color: solid red;
     background-color: #373738;
 }
 
 .footer ul {
+    border-color: solid red;
     display: inline-block;
     vertical-align: top;
 }
 
 li {
+    border-color: solid red;
     text-align: center;
     padding: 25px;
 }
