@@ -2,12 +2,14 @@ html {
     scroll-behavior: smooth;
     margin: 0;
   }
+  
   :target:before {
     content: "";
     display: block;
     height: 75px;
     margin: -75px 0 0;
   }
+
   body {
     background-color: #130717;
     font-family: "Prompt", sans-serif;
@@ -56,6 +58,10 @@ content {
 footer {
     border: 5px solid red;
     background-color: #373738;
+    position: relative;
+    bottom: 0px;
+    margin-top: 25px;
+    padding: 15px;
 }
 
 footer ul {
@@ -73,11 +79,7 @@ li {
 
 /* Basic structure & Typography */
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
+  h1, h2, h3, h4, h5 {
     font-family: "Space Mono", monospace;
     color: #40d3e6;
     margin: 0;
@@ -108,18 +110,10 @@ li {
   section {
     margin-top: 50px;
   }
-  footer {
-    position: relative;
-    bottom: 0px;
-    margin-top: 25px;
-    padding: 15px;
-    background-color: #7b518c;
-  }
   .small {
     font-size: 8pt;
   }
-  .aboutBlurb b,
-  h4 {
+  .aboutBlurb b h4 {
     color: #cf4447;
   }
   #about .container,
@@ -142,8 +136,7 @@ li {
     text-align: right;
     padding: 10px;
   }
-  #ux .container,
-  #contact .container {
+  #ux .container, #contact .container {
     border-right: 10px solid #40d3e6;
     border-radius: 5px;
     -webkit-box-shadow: inset -5px 0px 0px 0px #428a99;
@@ -167,8 +160,7 @@ li {
     width: 50%;
     padding-bottom: 8vh;
   }
-  input,
-  textarea {
+  input, textarea {
     font-family: "Prompt", sans-serif;
     border: none;
     border-radius: 5px;
@@ -176,8 +168,7 @@ li {
     color: #130717;
     font-size: 12pt;
   }
-  input:focus,
-  textarea:focus {
+  input:focus, textarea:focus {
     -webkit-box-shadow: 0px 0px 5px 3px #40d3e6;
     box-shadow: 0px 0px 5px 3px #40d3e6;
     outline: none;
@@ -202,6 +193,7 @@ li {
     width: 100%;
     resize: none;
   }
+
   /* Make labels invisible, but legible to screen-readers */
   label {
     clip: rect(1px, 1px, 1px, 1px);
@@ -223,7 +215,7 @@ li {
     margin-bottom: 0;
   }
   
-  /* Links & Buttons */
+  /* Buttons */
   button {
     color: #40d3e6;
     background-color: #7b518c;
@@ -248,6 +240,8 @@ li {
     position: relative;
     top: 1px;
   }
+
+/* Links */
   a {
     color: inherit;
     cursor: pointer;
