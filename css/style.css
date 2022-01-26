@@ -1,4 +1,4 @@
-.inline-block {
+inline-block {
     border-color: solid red;
     display: inline-block;
     vertical-align: top;
@@ -11,13 +11,13 @@
     text-align: center;
 }
 
-.nav {
+nav {
     border-color: solid red;
     width: 73%;
     padding: 1%;
 }
 
-.ul {
+ul {
     border-color: solid red;
     width: 50%;
     margin-left: auto;
@@ -29,18 +29,18 @@
     padding: 25px;
 }
 
-.content {
+content {
     border-color: solid red;
     width: 500px;
     margin: 0 auto;
 }
 
-.footer {
+footer {
     border-color: solid red;
     background-color: #373738;
 }
 
-.footer ul {
+footer ul {
     border-color: solid red;
     display: inline-block;
     vertical-align: top;
