@@ -145,7 +145,7 @@ GitHub Desktop can see that you have added files and is tracking your repo. Make
 
 Push these pages up to your UX_UI_HW_17 GitHub repo to sync your local repo with your cloud repo.
 
-------------------------------------------------------------------------------
+-----------------------------------------------------------------------
 
 Step 4: Create a basic HTML structure for a navbar, hero image, and footer (1-2 hours)
 
