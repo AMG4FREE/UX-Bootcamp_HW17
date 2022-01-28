@@ -1,2 +1,3 @@
 # UX-Bootcamp_HW17
-Homework 17 assignment for University of Oregon UX/UI Bootcamp
+GitHub Repository for Homework 17 assignment
+University of Oregon UX/UI Bootcamp
