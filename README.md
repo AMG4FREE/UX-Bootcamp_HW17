@@ -1,3 +1,2 @@
 # UX_UI_HW_17
-Homework 17 for University of Oregon UX/UI Bootcamp
-
+Homework 17 assignment for University of Oregon UX/UI Bootcamp
