@@ -1,0 +1,44 @@
+.wtreadButton {
+    padding: 6px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1px;
+    background: rgba(41, 121, 255, 0);
+    transition: all 0.12s;
+}
+
+.wtreadButton:hover {
+    background: rgba(73, 70, 239, 0.12);
+    cursor: pointer;
+}
+
+.closeBtn {
+    width: 36px;
+    padding-right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0, 0);
+    transition: all 0.12s;
+}
+
+.closeBtn:hover {
+    background: rgba(0,0,0, 0.05);
+    cursor: pointer;
+}
+
+.wtreadShow {
+    max-width: 250px;
+    height: 40px;
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+.wtreadHide {
+    height: 40px;
+    max-width: 0;
+    user-select: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
